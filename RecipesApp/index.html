@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Font Awesome Links -->
+    <script src="https://use.fontawesome.com/ba2c1fbd8b.js"></script>
+
+    <!-- Global Font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Freehand&family=Merriweather&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Recipe APP</title>
+  </head>
+  <body>
+    <div class="original-container">
+      <h3 class="kitchen">Shiluk Kitchens</h3>
+      <nav class="header">
+        <input type="text" id="search" />
+        <button id="search-term">
+          <i class="fa fa-search"></i>
+        </button>
+      </nav>
+
+      <div class="popular-meals">
+        <h3 id="popular">Our Popular Meals</h3>
+        <ul class="popular-food"></ul>
+      </div>
+      <div class="relative-span"></div>
+    </div>
+    <div class="popup-container hidden" id="popup-container">
+      <div class="meal-info">
+        <button class="close-popup"><i class="fa fa-times"></i></button>
+        <div class="mealsin"></div>
+
+      </div>
+      
+
+    <script src="app.js"></script>
+  </body>
+</html>
